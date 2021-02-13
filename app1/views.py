@@ -1,10 +1,8 @@
 from django.shortcuts import render
-from rest_framework.response import Response
+# from rest_framework.response import Response
 from rest_framework.views import APIView
 from app1.models import MembersModel
 from django.http import HttpResponse
-from app1.serializer import EmployeeSerializer
-import pprint
 import json
 
 
